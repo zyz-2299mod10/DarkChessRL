@@ -41,7 +41,7 @@ class DarkChessGUI:
 
     def click_cell(self, idx):
         if self.env.current_player != 0:
-            return  # 只允許你(玩家0)操作
+            return  # only allow player 0 (you)
 
         if self.selected is None:
             self.selected = idx
